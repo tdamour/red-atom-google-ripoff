@@ -1,0 +1,171 @@
+/**************************
+   Style.css For Red Atom
+***************************/ 
+
+/**************************
+         General 
+***************************/ 
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	width:100%; 
+	margin:0 auto; 
+}
+body {
+	width:100%;
+	margin: 0 auto; 
+	overflow-x:hidden;
+	display:block;
+	background-color:#000; 
+	font-family: 'Montserrat', sans-serif; 
+}
+
+/**************************
+        Header Style 
+***************************/ 
+header {
+	width:100%;
+	margin:0 auto;
+	height:35px; 
+	margin-top:40px;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+/**************************
+		nav 
+***************************/ 
+
+/**************************
+  .nav_list, li , a 
+***************************/ 
+.nav_list {
+	width:100%;
+}
+
+.nav_list ul {
+	list-style:none;
+	margin: 0 auto;
+	float:right;
+	margin-right:.5em; 
+}
+
+.nav_list ul li {
+	margin-top:15px; 
+	padding:15px;
+	display:inline; 	
+}
+
+.nav_list ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:1.1em; 
+	font-weight:bold; 
+	
+}
+.nav_list ul li a:hover {
+	color:#ff0000; 
+}
+/**************************
+      Body Style 
+***************************/ 
+/**************************
+      #wrapper 
+***************************/ 
+#wrapper {
+	width:100%;
+	min-height:100%; 
+	margin: 0 auto;
+	margin-top:60px; 
+	overflow:auto;
+	text-align:center;
+}
+
+/**************************
+       Content 
+***************************/
+
+#logo{
+	height:175px; 
+	width:175px;
+	margin:0 auto; 
+}
+
+#brand_text{
+	color:#ff0000; /*red */ 
+	margin:0 auto;
+	margin-top:25px;
+	font-size:3.5em; 
+}
+
+/**************************
+    Search bar 
+***************************/
+#search_form {
+	margin-top:35px; 
+	margin-bottom:155px; 
+}
+
+#search_box{
+	height:36px; 
+	border:2px solid #ff0000; 
+	width:40%;
+	text-indent:15px; 
+}
+
+#search_btn{
+	width:95px; 
+	height:40px;
+	background-color:#ff0000; 
+	color:#fff; 
+	font-weight:bold;
+	border:2px solid #fff;
+	cursor:pointer; 
+}
+
+#search_btn:hover{
+	background-color:#fff; 
+	color:#ff0000;
+	border:2px solid #ff0000; 
+}
+  
+/**************************
+  Footer Style 
+***************************/ 
+
+#footer{
+	clear:both;
+	width:100%;
+	position:absolute; 
+	height:48px; 
+	background-color:#ff0000; 
+}
+
+/**************************
+  Media Queries 
+***************************/ 
+@media only screen and (max-width:768px) and (orientation: portrait){
+	/*  .nav_list, li , a */
+	.nav_list ul li {
+		padding:9px; 
+	}
+	.nav_list ul li a {
+		font-size:1em; 
+	}
+}
+
+@media only screen and (max-width:500px) and (orientation: portrait){
+	/*  .nav_list, li , a */
+	.nav_list ul {
+		float:none;
+		
+	}
+	.nav_list ul li {
+		padding:15px; 
+	}
+	.nav_list ul li a {
+		font-size:.8em; 
+	}
+}
