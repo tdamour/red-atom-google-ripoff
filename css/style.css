@@ -11,6 +11,7 @@
 }
 html{
 	width:100%; 
+	height:100%; 
 	margin:0 auto; 
 }
 body {
@@ -134,11 +135,13 @@ header {
 /**************************
   Footer Style 
 ***************************/ 
-
+/* I used a fixed footer : from CSS Tricks : https://css-tricks.com/snippets/css/fixed-footer/ */ 
 #footer{
 	clear:both;
+	position:fixed; 
+	left:0px;
+	bottom:0px; 
 	width:100%;
-	position:absolute; 
 	height:48px; 
 	background-color:#ff0000; 
 }
