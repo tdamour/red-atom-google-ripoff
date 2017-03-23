@@ -166,9 +166,15 @@ header {
 		
 	}
 	.nav_list ul li {
-		padding:15px; 
+		padding:10px; 
 	}
 	.nav_list ul li a {
+		font-size:.8em; 
+	}
+	
+	/* search box */ 
+	#search_box{
+		text-indent:5px; 
 		font-size:.8em; 
 	}
 }
